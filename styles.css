@@ -26,9 +26,12 @@ body {
 }
 
 .information-container .logo-left {
-    border: 10px solid #fff;
+    border-left: 10px solid #fff;
+    border-top: 10px solid #fff;
+    outline: 3px solid #fff;
+    outline-offset: 12px;
     height: 500px;
-    margin: 0 auto;
+    margin: 0 auto 80px;
     position: relative;
     text-align: right;
     width: 500px;
