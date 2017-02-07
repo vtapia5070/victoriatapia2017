@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtapia5070/victoriatapia2017.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vtapia5070/victoriatapia2017/issues"
+  },
+  "homepage": "https://github.com/vtapia5070/victoriatapia2017#readme"
 }

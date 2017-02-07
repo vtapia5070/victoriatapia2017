@@ -1,0 +1,59 @@
+body {
+    background-color: #000;
+}
+.container-left {
+    background: #99b4cc url("splash_image.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: -300px 0;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+.container-left.overlay {
+    /*background-blend-mode: soft-light;*/
+    /*background-blend-mode: overlay;*/
+    /*background-blend-mode: darken;*/
+    /*background-blend-mode: luminosity;*/
+    /*background-blend-mode: screen;*/
+}
+
+.information-container {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50% auto;
+    text-align: center;
+    color: #fff;
+}
+
+.information-container .logo-left {
+    border: 10px solid #fff;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    text-align: right;
+    width: 500px;
+}
+
+.name {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 25px 25px 0;
+    font-size: 50px;
+}
+
+/*.container-left,
+.container-right {
+    height: 100%;
+    width: 50%;
+}
+
+.container-left {
+    position: fixed;
+}
+
+.container-right {
+    background-color: #000;
+    float: right;
+}
+*/
