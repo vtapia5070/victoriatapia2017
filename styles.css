@@ -1,12 +1,13 @@
 body {
     background-color: #000;
 }
-.container-left {
+.container-left-image {
     background: #99b4cc url("splash_image.jpg") no-repeat center center;
     background-size: cover;
-    background-position: -300px 0;
+    /*background-position: -300px 0;*/
     height: 100%;
     position: fixed;
+    top: 0;
     width: 100%;
 }
 .container-left.overlay {
@@ -44,6 +45,8 @@ body {
     margin: 0 25px 25px 0;
     font-size: 50px;
 }
+
+
 
 /*.container-left,
 .container-right {
