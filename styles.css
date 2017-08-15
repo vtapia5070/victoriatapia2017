@@ -1,7 +1,9 @@
+@import url("./node_modules/frow/css/frow.css");
+
 body {
     background-color: #000;
 }
-.container-left-image {
+.background-image {
     background: #99b4cc url("splash_image.jpg") no-repeat center center;
     background-size: cover;
     /*background-position: -300px 0;*/
@@ -9,13 +11,6 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-}
-.container-left.overlay {
-    /*background-blend-mode: soft-light;*/
-    /*background-blend-mode: overlay;*/
-    /*background-blend-mode: darken;*/
-    /*background-blend-mode: luminosity;*/
-    /*background-blend-mode: screen;*/
 }
 
 .information-container {
@@ -46,20 +41,7 @@ body {
     font-size: 50px;
 }
 
-
-
-/*.container-left,
-.container-right {
-    height: 100%;
-    width: 50%;
+.info {
+    position: relative;
 }
 
-.container-left {
-    position: fixed;
-}
-
-.container-right {
-    background-color: #000;
-    float: right;
-}
-*/
