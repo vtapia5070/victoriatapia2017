@@ -13,21 +13,38 @@ html, body {
     height:100%;
 }
 
-/* layout */
+/* Nav */
+.main-nav {
+  color: #fbf1e3;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  text-align: right;
+}
+
+.social-icons a {
+  padding: 0 7px;
+}
+
+.social-icons {
+  padding: 10px;
+}
+
+/* Main */
 .main {
     height: 100%;
 }
 
 .left {
-    background-color: grey;
+    background-color: #2A2A2A;
     height: 100vh;
-    background: url('splash_image.jpg') no-repeat center center;
+    background: url('images/splash_image.jpg') no-repeat center center;
     background-size: cover;
 }
 
 .right {
     position: absolute;
-    top: 100px;
+    top: 150px;
     left: 0;
     right: 0;
 }
@@ -73,10 +90,11 @@ html, body {
         font-size: 20px;
     }
 }
+
 @media (min-width: 992px) {
 
     .right {
-        background-color: black;
+        background-color: #2A2A2A;
         height: 100vh;
         padding: 25% 0;
         position: relative;
@@ -100,27 +118,5 @@ html, body {
 
 /* END layout */
 
-
-/*body {
-    background-color: #000;
-}*/
-.background-image {
-    background: #99b4cc url("splash_image.jpg") no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.information-container {
-    font-size: 30px;
-    font-weight: bold;
-    margin: 50% auto;
-    text-align: center;
-    color: #fff;
-}
-
-.information-container {}
 
 
