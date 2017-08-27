@@ -7,5 +7,5 @@ Personal Profile
 - Frow.css
 
 ### Deployment
-- Heroku
+- Install Heroku CLI
 - push master to `victoriatapia` remote branch
