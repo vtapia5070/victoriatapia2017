@@ -1,5 +1,3 @@
-/*@import url("./node_modules/frow/css/frow.css");*/
-
 
 html {
   box-sizing: border-box;
@@ -35,14 +33,14 @@ html, body {
     height: 100%;
 }
 
-.left {
+.left-image {
     background-color: #2A2A2A;
     height: 100vh;
-    background: url('images/splash_image.jpg') no-repeat center center;
+    background: url('images/splash_image1x.gif') no-repeat center center;
     background-size: cover;
 }
 
-.right {
+.right-info {
     position: absolute;
     top: 150px;
     left: 0;
@@ -93,7 +91,7 @@ html, body {
 
 @media (min-width: 992px) {
 
-    .right {
+    .right-info {
         background-color: #2A2A2A;
         height: 100vh;
         padding: 25% 0;
