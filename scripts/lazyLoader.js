@@ -7,16 +7,18 @@ let imageContainerEl;
 
 // initialize - invoke all methods here.
 const init = () => {
+    
     // assign references here.
     imageContainerEl = document.querySelector('.left-image');
     console.log('init!', imageContainerEl);
 
     addEventListeners();
+
 };
 
 // callback to lazy load.
 const uploadImage = () => {
-    console.log('window loaded!')
+
     // replace splash image.
     imageContainerEl.style.backgroundImage = 'url("images/splash_image.jpg")';
 
