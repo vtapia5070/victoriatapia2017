@@ -33,11 +33,12 @@ html, body {
     height: 100%;
 }
 
-.left-image {
+.splash-image {
     background-color: #2A2A2A;
     height: 100vh;
-    background: url('images/splash_image1x.gif') no-repeat center center;
-    background-size: cover;
+    width: 100%;
+    /* background: url('images/splash_image1x.gif') no-repeat center center; */
+    /* background-size: cover; */
 }
 
 .right-info {

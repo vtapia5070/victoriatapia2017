@@ -9,7 +9,7 @@ let imageContainerEl;
 const init = () => {
     
     // assign references here.
-    imageContainerEl = document.querySelector('.left-image');
+    imageContainerEl = document.querySelector('.splash-image');
 
     addEventListeners();
 
@@ -19,7 +19,7 @@ const init = () => {
 const uploadImage = () => {
 
     // replace splash image.
-    imageContainerEl.style.backgroundImage = 'url("images/splash_image.jpg")';
+    imageContainerEl.src = 'images/splash_image.jpg';
 
 };
 
