@@ -10,7 +10,6 @@ const init = () => {
     
     // assign references here.
     imageContainerEl = document.querySelector('.left-image');
-    console.log('init!', imageContainerEl);
 
     addEventListeners();
 
