@@ -19,7 +19,7 @@ const init = () => {
 const uploadImage = () => {
 
     // replace splash image.
-    imageContainerEl.src = 'images/splash_image.jpg';
+    imageContainerEl.src = 'images/omar-rodriguez-1192626-unsplash.jpg';
 
 };
 

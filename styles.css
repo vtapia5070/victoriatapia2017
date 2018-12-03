@@ -29,15 +29,20 @@ html, body {
 }
 
 /* Main */
-.main {
-    height: 100%;
-    display: flex;
-}
 
 .left-image img {
     overflow: hidden;
-    position: relative;
-    top: -330px;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    top: 0;
+    -ms-transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+    transform: none;
+    width: 100%;
 }
 
 .right-info {
@@ -89,30 +94,6 @@ html, body {
     .info {
         font-size: 20px;
     }
-}
-
-@media (min-width: 992px) {
-
-    .right-info {
-        background-color: #2A2A2A;
-        height: 100vh;
-        padding: 25% 0;
-        position: relative;
-        top: 0;
-    }
-
-    .logo {
-        border-left: 10px solid #fff;
-        border-top: 10px solid #fff;
-        height: 350px;
-        width: 350px;
-    }
-
-    .name {
-        margin: 0 25px 25px 0;
-        font-size: 50px;
-    }
-
 }
 
 
