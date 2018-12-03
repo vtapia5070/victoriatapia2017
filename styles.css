@@ -18,6 +18,7 @@ html, body {
   width: 100%;
   z-index: 1;
   text-align: right;
+  background-color: rgba(0,0,0, 0.6);
 }
 
 .social-icons a {
