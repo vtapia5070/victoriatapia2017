@@ -12,11 +12,18 @@ html, body {
 }
 
 /* Nav */
+
+header {
+    position: fixed;
+    height: 20px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
 .main-nav {
   color: #fbf1e3;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
   text-align: right;
   background-color: rgba(0,0,0, 0.6);
 }

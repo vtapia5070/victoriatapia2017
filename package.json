@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/vtapia5070/victoriatapia2017#readme",
   "dependencies": {
-    "frow": "^2.0.1",
-    "normalize.css": "^7.0.0"
+    "http": "0.0.0",
+    "normalize.css": "^7.0.0",
+    "serve-handler": "^5.0.7"
   }
 }
