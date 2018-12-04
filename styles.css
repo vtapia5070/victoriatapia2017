@@ -58,7 +58,6 @@ header {
     top: 150px;
     left: 0;
     right: 0;
-    text-shadow: 5px 0px rgba(0,0,0,0.3);
 }
 
 .logo {
@@ -79,7 +78,6 @@ header {
     position: absolute;
     bottom: 0;
     right: 0;
-    text-shadow: 5px 0px rgba(0,0,0,0.3);
 }
 
 .info {
