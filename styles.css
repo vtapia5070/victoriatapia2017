@@ -16,7 +16,6 @@ html, body {
 header {
     position: fixed;
     height: 100%;
-    width: 50px;
     z-index: 1;
     top: 0;
     left: 0;
@@ -25,18 +24,54 @@ header {
 .hamburger-menu {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 5px 10px;
 }
 
 .hamburger-menu div {
-    height: 10px;
-    width: 10px;
-    border-bottom: 3px rgba(255, 255, 255, 0.5);
+    height: 2px;
+    width: 30px;
+    background-color: rgba(255, 2555, 255, 1);
+    margin-bottom: 5px;
 }
 
 .side-nav {
   color: #fbf1e3;
-  text-align: right;
+  /* text-align: right; */
   background-color: rgba(0,0,0, 0.6);
+  margin: 10px;
+}
+
+.side-nav.active {
+    margin: 0;
+    height: 100%;
+    padding: 20px 10px;
+    width: 100%;
+    position: fixed;
+}
+
+.active .hamburger-menu {
+    align-items: normal;
+}
+
+.active .hamburger-menu > div {
+    display: none;
+}
+
+.active .hamburger-menu:before {
+    content: 'X';
+}
+
+.menu-list ul {
+    padding: 0;
+}
+
+.menu-list li {
+    list-style: none;
+}
+
+.menu-list li div {
+    height: 10px;
 }
 
 .social-icons a {
@@ -48,7 +83,7 @@ header {
 }
 
 /* Main */
-
+/* TODO: add overlay on image with opacity to make name and description more visible */
 .splash-image img {
     overflow: hidden;
     position: fixed;

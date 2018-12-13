@@ -11,7 +11,7 @@ const init = () => {
     // assign references here.
     imageContainerEl = document.querySelector('.splash-image');
 
-    addEventListeners();
+    addHamburgerMenuEventListeners();
 
 };
 
@@ -24,9 +24,10 @@ const uploadImage = () => {
 };
 
 // register event listeners here. 
-const addEventListeners = () => {
+const addHamburgerMenuEventListeners = () => {
 
     window.onLoad = uploadImage();
+    // TODO: do we need to immediately invoke uploadImage?
 
 };
 
